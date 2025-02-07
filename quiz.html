@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrainBox Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="sidebar">
+        <img src="images/logo.png" alt="Sidebar Logo" class="sidebar-logo">
+    
+        <div class="sidebar-content">
+            <div class="sidebar-header">
+                <img src="images/online-course.png" alt="Contents Icon" class="icon">
+                <span class="sidebar-title">CONTENTS</span>
+            </div>
+    
+            <div class="sidebar-section">
+                <h3>Adulting 101</h3>
+                <p class="subtopic">Subtopic</p>
+                <p class="subtopic">Subtopic</p>
+                <p class="subtopic">Subtopic</p>
+                <p class="subtopic">QUIZ</p>
+            </div>
+    
+            <div class="sidebar-section">
+                <h3>Mental Empowerment</h3>
+                <p class="subtopic">Subtopic</p>
+                <p class="subtopic">Subtopic</p>
+                <p class="subtopic">Subtopic</p>
+                <p class="subtopic">QUIZ</p>
+            </div>
+    
+            <div class="sidebar-section">
+                <h3>Financial Empowerment</h3>
+                <p class="subtopic">Subtopic</p>
+                <p class="subtopic">Subtopic</p>
+                <p class="subtopic">Subtopic</p>
+                <p class="subtopic">QUIZ</p>
+            </div>
+    
+            <div class="sidebar-section">
+                <h3>Academic Empowerment</h3>
+                <p class="subtopic">Subtopic</p>
+                <p class="subtopic">Subtopic</p>
+                <p class="subtopic">Subtopic</p>
+                <p class="subtopic">QUIZ</p>
+            </div>
+        </div>
+    
+        <div class="sidebar-footer">
+            <img src="images/help.png" alt="Help Icon" class="icon">
+            <span class="help-text">Help</span>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <div class="profile">
+                <img src="images/profile.png" alt="User Image">
+                <div>
+                    <h3>Hi, Jordan Smith</h3>
+                    <small>Student</small>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="search-container">
+                    <img src="images/search.png" alt="Search Icon">
+                    <input type="text" class="search-bar" placeholder="Search your bookmarks here...">
+                </div>
+                <button class="token-btn">
+                    <img src="images/coin.png" alt="Token Icon">
+                    327 Brain Tokens
+                </button>
+            </div>
+            
+        </div>
+        <div class="quiz-header">
+            <div>
+                <h2 class="quiz-title">Activity: Adulting 101 | Getting Married</h2>
+                <p>5 levels | Unlimited Attempts | 15 minutes</p>
+            </div>
+            <div class="settings">Settings &#9660;</div>
+        </div>
+        
+        <div class="quiz">
+            <div class="quiz-container">
+                <div class="main-content">
+                    <div class="main-header">
+                        <h1>Statement 1) Fundamental Freedoms</h1>
+                        <div class="icon-container">
+                            <img src="images/bookmark.png" alt="Bookmark Icon">
+                            <img id="soundIcon" src="images/sound.png" alt="Sound Icon" style="display: none;">
+                        </div>
+                    </div>
+                    <div class="content-container">
+                        <div class="question">
+                            "In Canada, citizens have the freedom to believe in any religion, or none at all."
+                        </div>
+                    
+                        <div class="button-container">
+                            <button id="trueBtn" class="answer-btn true-btn">TRUE</button>
+                            <button id="falseBtn" class="answer-btn false-btn">FALSE</button>
+                        </div>
+                    
+                        <div id="coin-animation" class="coin-animation"></div>
+                    
+                        <div class="explaination-container" id="explanation" style="display: none;">
+                            <p>Explanation:</p>
+                            <p><i>The Canadian Charter of Rights and Freedoms protects the freedom of religion.</i></p>
+                        </div>
+                    </div>
+
+                    <div class="navigation-buttons">
+                        <button id="prevBtn" class="nav-btn">
+                            <img src="images/left-arrow.png" alt="Previous">
+                        </button>
+                        <button id="nextBtn" class="nav-btn">
+                            <img src="images/right-arrow.png" alt="Next">
+                        </button>
+                    </div>
+                    
+                    <audio id="correctSound" src="sounds/correct.mp3"></audio>
+                    <audio id="wrongSound" src="sounds/wrong.mp3"></audio>
+                    
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

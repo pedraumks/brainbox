@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrainBox Dashboard</title>
+    <link rel="stylesheet" href="course-dashboard.css">
+</head>
+<body>
+    <div class="sidebar">
+        <img src="images/logo.png" alt="BrainBox Logo">
+        <div class="sidebar-content">
+            <div class="sidebar-section">
+                <a href="#" class="subsection"><img src="images/dashboard.png" alt="Dashboard Icon" class="icon"> Dashboard</a>
+                <a href="#" class="subsection"><img src="images/textbook.png" alt="Textbook Icon" class="icon"> Textbook</a>
+                <a href="#" class="subsection"><img src="images/online-course.png" alt="Course Icon" class="icon"> Online Course</a>
+            </div>
+            <div class="sidebar-section">
+                <a href="#" class="subsection"><img src="images/quizzes.png" alt="Quizzes Icon" class="icon"> Quizzes</a>
+                <a href="#" class="subsection"><img src="images/bookmarks.png" alt="Bookmarks Icon" class="icon"> Bookmarks</a>
+                <a href="#" class="subsection"><img src="images/logout.png" alt="Logout Icon" class="icon"> Logout</a>
+            </div>
+        </div>
+        <div class="sidebar-footer">
+            <a href="#"><img src="images/help.png" alt="Help Icon" class="icon"> Help</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header">
+            <div class="profile">
+                <img src="images/profile.png" alt="User Image">
+                <div>
+                    <h3>Hi, Jordan Smith</h3>
+                    <small>Student</small>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="search-container">
+                    <img src="images/search.png" alt="Search Icon">
+                    <input type="text" class="search-bar" placeholder="Search your bookmarks here...">
+                </div>
+                <button class="token-btn">
+                    <img src="images/coin.png" alt="Token Icon">
+                    327 Brain Tokens
+                </button>
+            </div>
+            
+        </div>
+        <div class="dashboard-header">
+            <h2 class="dashboard-title">Your Dashboard</h2>
+            <div class="show-all">Show All &#9660;</div>
+        </div>
+        
+        <div class="dashboard">
+            <div class="dashboard-container">
+                <div class="main-content">
+                    <div class="main-header">
+                        <h1>BrainBox Life Skills Education</h1>
+                        <div class="contents-dropdown">Contents &#9660;</div>
+                    </div>
+                    <div class="content-container">
+                        <div class="main-course">
+                            <img src="images/full-course.png" alt="Main Course">
+                            <p>Click for full course</p>
+                        </div>
+                        <div class="content-links">
+                            <div class="content-item">
+                                <img src="images/video-library.png" alt="Video Library">
+                                <p>Click for video library</p>
+                            </div>
+                            <div class="content-item">
+                                <img src="images/e-text.png" alt="E-Text">
+                                <p>Click for e-text</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar"></div>
+                    </div>
+                </div>
+                <div class="messages">
+                    <div class="messages-header">
+                        <h3>Messages</h3>
+                        <div class="show-all">Show All &#9660;</div>
+                    </div>
+                    <div class="message-item">
+                        <img src="images/logo.png" alt="Admin Icon">
+                        <div>
+                            <strong>Administrator</strong> <span class="time-sent">5m ago</span>
+                            <p>Hi Jordan! You scored a 30/32 on your last quiz, that’s amazing. Keep up the great work, we’re proud of you.</p>
+                        </div>
+                        <button class="dismiss-btn">Dismiss</button>
+                    </div>
+                </div>
+            </div>
+            <div class="side-widgets">
+                <div class="widget blue-widget">
+                    <p>Jump Back In</p>
+                    <h1>Pg 187</h1>
+                    <p>Financial Empowerment | Budgeting</p>
+                </div>
+                <div class="widget green-widget">
+                    <p>Total Complete</p>
+                    <h1>78%</h1>
+                    <p>You're more than 3/4 of the way there!</p>
+                </div>
+                <div class="widget light-blue-widget">
+                    <p>Quizzes Left</p>
+                    <h1>2</h1>
+                    <p>You're only 2 quizzes away from completing the course!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
