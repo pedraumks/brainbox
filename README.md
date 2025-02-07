@@ -1,6 +1,6 @@
 Steps to View Webpages Locally:
 
-1) Either download brainbox repository as zip file or use git clone
+1) Either download brainbox repository as zip file (click the green button Code) or use git clone
 2) Find the folder called brainbox in Finder (Mac) or File Explorer (Windows)
 
 3) Follow the steps below to view each webpage individually:
